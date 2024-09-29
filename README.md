@@ -66,6 +66,7 @@ A real-time, multiplayer Tic-Tac-Toe game built using **Node.js**, **Socket.io**
 ├── public/              # Static files (CSS, client-side JS)
 ├── src/
 │   ├── server.ts        # Main server file
-│---view           
+├── views/                    # EJS views (HTML templates)
+│   └── index.ejs             # Main game UI template          
 ├── package.json         # Project dependencies and scripts
 └── README.md            # This file
