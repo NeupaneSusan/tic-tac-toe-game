@@ -6,7 +6,7 @@ A real-time, multiplayer Tic-Tac-Toe game built using **Node.js**, **Socket.io**
 - [Features](#features)
 - [Setup](#setup)
 - [Socket.io Events](#socketio-events)
-- [Project Structure](#project-structure)
+
 - [License](#license)
 
 ## Features
@@ -60,13 +60,4 @@ A real-time, multiplayer Tic-Tac-Toe game built using **Node.js**, **Socket.io**
 - **`disconnect`**: When a player disconnects from the game.
 - **`resetGame`**: Resets the game board after a game over.
 
-## Project Structure
 
-```bash
-├── public/              # Static files (CSS, client-side JS)
-├── src/
-│   ├── server.ts        # Main server file
-├── views/                    # EJS views (HTML templates)
-│   └── index.ejs             # Main game UI template          
-├── package.json         # Project dependencies and scripts
-└── README.md            # This file
